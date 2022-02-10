@@ -42,6 +42,15 @@ public class Exercicio5 {
 			System.out.println("\nAs indústrias do 1º devem paralizar suas atividades!");
 		}
 		
+		double a = sc.nextFloat();
+		
+		System.out.printf("%b", a == 0.4d);
+		
+		if (ind == 0.4)
+		{
+			System.out.println("\nAAAAAAA!");
+		}
+		
 		// Fecha o scanner para não vazar recursos
 		sc.close();
 	}
